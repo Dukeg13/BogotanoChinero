@@ -1,0 +1,131 @@
+{
+  "locations": [
+    {
+      "name" : "Bogotá",
+      "atlas": {
+        "latitude": 4.71945109289652,
+        "longitude": -74.0810506904781,
+        "zoom": 10,
+        "scale": 0.7
+      },
+      "recuerdos": [
+        { "title": "Plaza Bolívar", "url": "images/Biblioteca Nacional de Colombia/sujeto.png" },
+        { "title": "Cerro Monserrate", "url": "images/ART UK/prueba.png" }
+      ],
+      "escritos": {
+        "title": "Escrito sobre Bogotá",
+        "pdf_url": "docs/Tanco Armero, Viaje a China-58-74.pdf"
+      },
+      "analisis": {
+        "title": "Análisis histórico de Bogotá",
+        "content": "Bogotá fue un epicentro cultural importante durante el siglo XIX."
+      }
+    },
+    {
+      "name" : "Calamar",
+      "atlas": {
+        "latitude": 10.2482502569287,
+        "longitude": -74.9144487580497,
+        "zoom": 10,
+        "scale": 0.3
+      },
+      "recuerdos": [
+        { "title": "Plaza Bolívar", "url": "images/Biblioteca Nacional de Colombia/sujeto.png" },
+        { "title": "Cerro Monserrate", "url": "images/Biblioteca Nacional de Colombia/prueba.png" }
+      ],
+      "escritos": {
+        "title": "Escrito sobre Bogotá",
+        "pdf_url": "docs/Tanco Armero, Viaje a China-58-74.pdf"
+      },
+      "analisis": {
+        "title": "Análisis histórico de Bogotá",
+        "content": "Bogotá fue un epicentro cultural importante durante el siglo XIX."
+      }
+    },
+    {
+      "name" : "Arroyondo",
+      "atlas": {
+        "latitude": 10.2524525271258,
+        "longitude": -75.0179146439506,
+        "zoom": 10,
+        "scale": 0.3
+      },
+      "recuerdos": [
+        { "title": "Plaza Bolívar", "url": "images/Biblioteca Nacional de Colombia/sujeto.png" },
+        { "title": "Cerro Monserrate", "url": "images/Biblioteca Nacional de Colombia/prueba.png" }
+      ],
+      "escritos": {
+        "title": "Escrito sobre Bogotá",
+        "pdf_url": "docs/Tanco Armero, Viaje a China-58-74.pdf"
+      },
+      "analisis": {
+        "title": "Análisis histórico de Bogotá",
+        "content": "Bogotá fue un epicentro cultural importante durante el siglo XIX."
+      }
+    },
+    {
+      "name": "Arjona",
+      "atlas": {
+        "latitude": 10.2532304936834,
+        "longitude": -75.3500553873603,
+        "zoom": 10,
+        "scale": 0.3
+      },
+      "recuerdos": [
+        { "title": "Plaza Bolívar", "url": "images/Biblioteca Nacional de Colombia/sujeto.png" },
+        { "title": "Cerro Monserrate", "url": "images/Biblioteca Nacional de Colombia/prueba.png" }
+      ],
+      "escritos": {
+        "title": "Escrito sobre Bogotá",
+        "pdf_url": "docs/Tanco Armero, Viaje a China-58-74.pdf"
+      },
+      "analisis": {
+        "title": "Análisis histórico de Bogotá",
+        "content": "Bogotá fue un epicentro cultural importante durante el siglo XIX."
+      }
+    },
+    {
+      "name":"Turbaco",
+        "atlas": {
+        "latitude": 10.3348345385657,
+        "longitude": -75.4124550411077,
+        "zoom": 10,
+        "scale": 0.3
+      },
+      "recuerdos": [
+        { "title": "Plaza Bolívar", "url": "images/Biblioteca Nacional de Colombia/sujeto.png" },
+        { "title": "Cerro Monserrate", "url": "images/Biblioteca Nacional de Colombia/prueba.png" }
+      ],
+      "escritos": {
+        "title": "Escrito sobre Bogotá",
+        "pdf_url": "docs/Tanco Armero, Viaje a China-58-74.pdf"
+      },
+      "analisis": {
+        "title": "Análisis histórico de Bogotá",
+        "content": "Bogotá fue un epicentro cultural importante durante el siglo XIX."
+      }
+    },
+    {
+      "name": "Cartagena",
+      "atlas": {
+        "latitude": 10.3937722113251,
+        "longitude": -75.4844984909218,
+        "zoom": 10,
+        "scale": 0.7
+      },
+      "recuerdos": [
+        { "title": "Plaza Bolívar", "url": "images/Biblioteca Nacional de Colombia/sujeto.png" },
+        { "title": "Cerro Monserrate", "url": "images/Biblioteca Nacional de Colombia/prueba.png" }
+      ],
+      "escritos": {
+        "title": "Escrito sobre Bogotá",
+        "pdf_url": "docs/Tanco Armero, Viaje a China-58-74.pdf"
+      },
+      "analisis": {
+        "title": "Análisis histórico de Bogotá",
+        "content": "Bogotá fue un epicentro cultural importante durante el siglo XIX."
+      }
+    }
+  ]
+}
+

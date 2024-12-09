@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+
+.cinzel-head {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Estilos base */
+body {
+    background-color: #f4e9d9;
+    color: #2c1810;
+    font-family: 'Lora', serif;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos con espacio uniforme */
+    align-items: stretch; /* Asegura que todos los elementos ocupen la misma altura */
+    width: 100%; /* Ocupa todo el ancho del viewport */
+    height: 100vh; /* Ocupa toda la altura del viewport */
+    box-sizing: border-box; /* Incluye padding y borde en las dimensiones */
+    gap: 10px; /* Espacio uniforme entre los elementos */
+}
+
+.container > * {
+    flex: 1; /* Permite que los hijos crezcan proporcionalmente */
+    max-width: 50%; /* Limita cada hijo al 50% del ancho del contenedor */
+    min-width: 300px; /* Ancho mínimo para evitar colapsos */
+    height: auto; /* Ajusta la altura al contenido */
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #2c1810;
+    margin: 0;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    border-bottom: 3px double #8b4513;
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    position: fixed; /* Mantiene su posición fija */
+    top: 0;
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+    background-color: #f4e9d9; /* Agrega un fondo para que sea legible */
+}
+
+
+/* Contenedor principal */
+[role="main"] {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Sección de scrolly */
+#scrolly {
+    position: relative;
+    background: #f4e9d9;
+    padding: 1rem;
+}
+
+/* Figura del mapa */
+#figure-container {
+    display: flex; /* Activa flexbox para organizar los hijos */
+    flex-direction: column; /* Apila los elementos en una columna */
+    align-items: center; /* Centra horizontalmente los hijos */
+    gap: 10px; /* Espaciado uniforme entre los hijos */
+    padding: 10px; /* Espaciado interno para evitar superposición */
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+#map {
+    flex: 1; /* Permite que crezca dentro del contenedor */
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+    height: 100%; /* Asegura que ocupe toda la altura asignada */
+    position: relative; /* Asegura que respete la disposición del flujo */
+    border: 8px solid #8b4513;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    margin: 0; /* Elimina márgenes externos */
+    box-sizing: border-box;
+}
+
+
+/* Información de ubicación */
+figure p {
+    margin: 0; /* Elimina márgenes que puedan desalinear el texto */
+    text-align: center; /* Centra el texto */
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem; /* Tamaño adecuado */
+    font-style: italic;
+    color: #8b4513; /* Mantén el color original */
+    order: 1; /* Asegúrate de que aparezca en el orden correcto */
+    order: 2;
+}
+
+/* Pasos de la narrativa */
+.step {
+    margin: 0 auto 2rem auto;
+    padding: 1rem;
+    border: 1px solid #8b4513;
+    background: #fff;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    font-size: 1.2rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* Estilo especial para pasos activos */
+.step.is-active {
+    background: #fff;
+    border: 2px solid #8b4513;
+    box-shadow: 0 0 20px rgba(139, 69, 19, 0.3);
+}
+
+/* Decoración vintage para los pasos */
+.step::before {
+    content: "";
+    position: relative;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border: 1px solid #8b4513;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+/* Sección final */
+#outro {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to bottom, #f4e9d9, #e6d5bc);
+}
+
+/* Estilización de los marcadores del mapa */
+.leaflet-marker-icon {
+    filter: sepia(0.5);
+}
+
+/* Controles del mapa con estilo vintage */
+.leaflet-control-zoom {
+    border: 2px solid #8b4513 !important;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2) !important;
+}
+
+.leaflet-control-zoom a {
+    background-color: #f4e9d9 !important;
+    color: #8b4513 !important;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .step {
+        margin: 0 1rem 2rem 1rem;
+        font-size: 1rem;
+    }
+
+    #map {
+        height: 50vh !important;
+    }
+}
+
+.info-buttons {
+    display: flex;
+    justify-content: space-between; /* Espacio uniforme entre botones */
+    align-items: center; /* Centra los botones verticalmente */
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.info-box {
+    display: flex; /* Organiza los botones en línea */
+    justify-content: space-between; /* Centra los botones horizontalmente */
+    gap: 20px; /* Espacio entre botones */
+    padding: 10px;
+    background-color: #f8f8f8; /* Fondo similar al de un nav */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.info-button {
+    flex-grow: 1; /* Asegura que cada botón ocupe un ancho proporcional */
+    text-align: center; /* Centra el texto dentro del botón */
+    padding: 10px 0; /* Espaciado interno */
+    font-size: 18px; /* Tamaño del texto */
+    font-family: 'Georgia', serif; /* Fuente con estilo clásico */
+    background-color: #e4e4e4; /* Fondo de los botones */
+    color: #333; /* Color del texto */
+    border: none; /* Sin bordes */
+    border-right: 1px solid #ccc; /* Separador entre botones */
+    cursor: pointer; /* Icono de puntero al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto suave de cambio de color */
+    text-transform: uppercase;
+}
+
+.info-button:hover {
+    background-color: #0056b3;
+}
+
+.info-button:last-child {
+    border-right: none;
+}
+
+.info-button.active{
+    background-color: #a42f25; /* Fondo del botón activo */
+    color: white; /* Texto en blanco */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.info-buttons:hover {
+    background-color: #d3d3d3; /* Cambia a un tono más claro al pasar el mouse */
+}
+
+/* Pop-up general */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.popup.hidden {
+    display: none;
+}
+
+.popup-close {
+    align-self: flex-end;
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.popup-close:hover {
+    color: #ff0000;
+}
+
+/* Contenido del pop-up */
+#popup-content {
+    font-size: 1rem;
+    color: #333;
+}
+

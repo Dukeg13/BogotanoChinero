@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UN BOGOTANO CHINERO</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles1.css">
+    <style>
+      #scrolly {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 1rem;
+        padding-left: 4rem;
+      }
+  
+      #scrolly>* {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+      }
+  
+      article {
+        position: relative;
+        padding: 0;
+        max-width: 20rem;
+      }
+  
+      figure {
+        display: grid;
+        position: -webkit-sticky;
+        position: sticky;
+        width: 100%;
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        background-color: #8a8a8a;
+        z-index: 0;
+      }
+  
+      figure p {
+        text-align: center;
+        padding: 1rem;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        -moz-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 2rem;
+        font-weight: 900;
+        color: wheat;
+      }
+  
+      .step {
+        width: 200px;
+        background-color: #3b3b3b;
+        color: #fff;
+      }
+  
+      .step:last-child {
+        margin-bottom: 0;
+      }
+  
+      .step.is-active {
+        background-color: goldenrod;
+        color: #3b3b3b;
+      }
+  
+      .step p {
+        font-family: 'Playfair Display', serif;
+        font-style: oblique;
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.5rem;
+      }
+    </style>
+</head>
+<body>
+  
+  <div class="container">
+      <h1>UN BOGOTANO CHINERO</h1>
+      <main>
+      <!--Este es el apartado más importante de Scrollama en el HTMl, en este se encuentran definidos los DIV en los cuales se aplicará
+      el código de la librería. Todo el apartado Scrolly, es donde se van a poner estos DIV. Al mismo tiempo, cada DIV debe llamarse
+      STEP pues el Script tendrá efecto sobre este, hará las modificaciones dependiendo del STEP en el que se encuentre el usuario-->
+      <section id="scrolly">
+          <article>
+            <div class="step" data-step="1">
+              <p>Bogotá</p>
+            </div>
+            <div class="step" data-step="2">
+              <p>Calamar</p>
+            </div>
+            <div class="step" data-step="3">
+              <p>Arroyondo</p>
+            </div>
+            <div class="step" data-step="4">
+              <p>Arjona</p>
+            </div>
+            <div class="step" data-step="5">
+              <p>Turbaco</p>
+            </div>
+            <div class="step" data-step="6">
+              <p>Cartagena</p>
+            </div>
+            <div class="step" data-step="7">
+              <p>San Thomas</p>
+            </div>
+            <div class="step" data-step="8">
+              <p>Jamaica</p>
+            </div>
+            <div class="step" data-step="9">
+              <p>La Habana</p>
+            </div>
+            <div class="step" data-step="10">
+              <p>Cayo Hueso</p>
+            </div>
+            <div class="step" data-step="11">
+              <p>Savannah</p>
+            </div>
+            <div class="step" data-step="12">
+              <p>Charleston</p>
+            </div>
+            <div class="step" data-step="13">
+              <p>Wilmington</p>
+            </div>
+            <div class="step" data-step="14">
+              <p>Richmond</p>
+            </div>
+            <div class="step" data-step="15">
+              <p>Baltimore</p>
+            </div>
+            <div class="step" data-step="16">
+              <p>Philadelphia</p>
+            </div>
+            <div class="step" data-step="17">
+              <p>Elizabethtown</p>
+            </div>
+            <div class="step" data-step="18">
+              <p>Nueva  York</p>
+            </div>
+            <div class="step" data-step="19">
+              <p>New Heaven</p>
+            </div>
+            <div class="step" data-step="20">
+              <p>Hartford</p>
+            </div>
+            <div class="step" data-step="21">
+              <p>Springfield</p>
+            </div>
+            <div class="step" data-step="22">
+              <p>Worcester</p>
+            </div>
+            <div class="step" data-step="23">
+              <p>Boston</p>
+            </div>
+            <div class="step" data-step="24">
+              <p>Liverpool/p>
+            </div>
+            <div class="step" data-step="25">
+              <p>Londres</p>
+            </div>
+            <div class="step" data-step="26">
+              <p>Dover</p>
+            </div>
+            <div class="step" data-step="27">
+              <p>Calais</p>
+            </div>
+            <div class="step" data-step="28">
+              <p>París</p>
+            </div>
+            <div class="step" data-step="29">
+              <p>Lyon</p>
+            </div>
+            <div class="step" data-step="30">
+              <p>Marsella</p>
+            </div>
+            <div class="step" data-step="31">
+              <p>Córcega</p>
+            </div>
+            <div class="step" data-step="32">
+              <p>Cerdenia</p>
+            </div>
+            <div class="step" data-step="33">
+              <p>Sicilia</p>
+            </div>
+            <div class="step" data-step="34">
+              <p>Gozo</p>
+            </div>
+            <div class="step" data-step="35">
+              <p>Malta</p>
+            </div>
+            <div class="step" data-step="36">
+              <p>Alejandría</p>
+            </div>
+            <div class="step" data-step="37">
+              <p>Atfih</p>
+            </div>
+            <div class="step" data-step="38">
+              <p>Naucrátis</p>
+            </div>
+            <div class="step" data-step="39">
+              <p>Sais</p>
+            </div>
+            <div class="step" data-step="40">
+              <p>El Cairo</p>
+            </div>
+            <div class="step" data-step="41">
+              <p>Heliopolis</p>
+            </div>
+            <div class="step" data-step="42">
+              <p>Giza</p>
+            </div>
+            <div class="step" data-step="43">
+              <p>Suez</p>
+            </div>
+            <div class="step" data-step="44">
+              <p>Aden</p>
+            </div>
+            <div class="step" data-step="45">
+              <p>Punta de Gala</p>
+            </div>
+            <div class="step" data-step="46">
+              <p>Singapur</p>
+            </div>
+            <div class="step" data-step="47">
+              <p>Singapur</p>
+            </div>
+            <div class="step" data-step="48">
+              <p>Hong Kong</p>
+            </div>
+            <div class="step" data-step="49">
+              <p>Amoy</p>
+            </div>
+            <div class="step" data-step="50">
+              <p>Macao</p>
+            </div>
+            <div class="step" data-step="51">
+              <p>Fu-Tchéu</p>
+            </div>
+            <div class="step" data-step="52">
+              <p>Chinchen</p>
+            </div>
+            <div class="step" data-step="53">
+              <p>Ning-Po</p>
+            </div>
+            <div class="step" data-step="54">
+              <p>Chang-Hai</p>
+            </div> 
+            <div class="step" data-step="55">
+              <p>Jaffa</p>
+            </div>
+            <div class="step" data-step="56">
+              <p>Jerusalen</p>
+            </div>
+          </article>
+          <figure>
+              <div id="map" style="height: 200px; width: 600px;"></div>
+              <p id="map-text">Location Info</p>
+              <div class="info-buttons">
+                <button class="info-button" data-type="atlas">atlas</button>
+                <button class="info-button" data-type="images">recuerdos</button>
+                <button class="info-button" data-type="journey">escritos</button>
+                <button class="info-button" data-type="analysis">análisis</button>
+              </div>  
+          </figure>
+      </section>
+      <div id="popup" class="popup hidden">
+        <div id="popup-content"></div>
+        <button id="popup-close" class="popup-close">✖</button>
+      </div>
+    </div>
+      
+    <!--La sección OUTRO es importante ya que se está definiendo qué tan larga será la página, esto es necesario ya que cada uno
+    de los STEPS debe poder pasar por la barra de selección, poor lo cual si la altura no es la suficiente esto puede 
+    provocar que alguno(s) de los STEPS se quede por fuera y no dispare el Trigger-->
+    <section id="outro" style="height: 500px;"></section>
+    <!--Para que no se quede solo una sección en Blanco lo que se va hacer es crear un apartado de Recursos en el que el ususario
+    podrá acceder a la documentación, herramientas y librerias que se utilizaron para la creación del proyecto-->
+    </main>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!--Se están llamando las librerias que serán necesarias para que Scrollama pueda funcionar-->
+    <!--D3 se utilizará para hacer modificaciones dentro del HTML y CSS-->
+    <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
+    <!--Intersection Observer es una librría para "leer" lo que está dentro del DOM, identificar elementos-->
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <!--Libreria de Scrollama con la cual se logra el efecto de ScrollyTelling-->
+    <script src="scrollama-main\scrollama-main\build\scrollama.min.js"></script>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UN BOGOTANO CHINERO</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles1copy.css">
+    <style>
+      #scrolly {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 1rem;
+        padding-left: 4rem;
+      }
+  
+      #scrolly>* {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+      }
+  
+      article {
+        position: relative;
+        padding: 0;
+        max-width: 20rem;
+      } 
+  
+      .step {
+        width: 200px;
+        background-color: #3b3b3b;
+        color: #fff;
+      }
+  
+      .step:last-child {
+        margin-bottom: 0;
+      }
+  
+      .step.is-active {
+        background-color: goldenrod;
+        color: #3b3b3b;
+      }
+  
+      .step p {
+        font-family: 'Playfair Display', serif;
+        font-style: oblique;
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.5rem;
+      }
+    </style>
+</head>
+<body>
+  
+  <div class="container">
+      <div class="header" id="myHeader">
+        <h1>UN BOGOTANO CHINERO</h1>
+      </div>
+      <main>
+        <section id="scrolly">
+          <article>
+            <div class="step" data-step="1">
+              <p>Bogotá</p>
+            </div>
+            <div class="step" data-step="2">
+              <p>Calamar</p>
+            </div>
+            <div class="step" data-step="3">
+              <p>Arroyondo</p>
+            </div>
+            <div class="step" data-step="4">
+              <p>Arjona</p>
+            </div>
+            <div class="step" data-step="5">
+              <p>Turbaco</p>
+            </div>
+            <div class="step" data-step="6">
+              <p>Cartagena</p>
+            </div>
+          </article>
+          <figure>
+            <div class="info-buttons">
+              <button class="info-button" data-type="atlas">atlas</button>
+              <button class="info-button" data-type="images">recuerdos</button>
+              <button class="info-button" data-type="journey">escritos</button>
+              <button class="info-button" data-type="analysis">análisis</button>
+            </div>  
+             <!-- Contenedor del mapa -->
+            <div id="map"></div>
+            <!-- Contenedor de imágenes -->
+            <div id="recuerdos-container" style="display: none;">
+              <button id="prev-button">anterior</button>
+              <img id="recuerdo-img" src="" alt="Recuerdo" style="width: 90%; height: 50%; object-fit: contain; margin-bottom: 20px  ;">
+              <button id="next-button">siguiente</button>
+              <p id="recuerdo-title"></p>
+            </div>
+            <!-- Contenedor del visor PDF -->
+            <iframe id="pdf-viewer" style="display: none;" width="100%"></iframe>
+            <div id="analysis-container" style="display: none;">
+              <h3 id="analysis-title"></h3>
+              <p id="analysis-content"></p>
+            </div>
+            <p id="map-text">Location Info</p>
+          </figure>
+        </section>
+      </main>
+  </div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!--Se están llamando las librerias que serán necesarias para que Scrollama pueda funcionar-->
+    <!--D3 se utilizará para hacer modificaciones dentro del HTML y CSS-->
+    <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
+    <!--Intersection Observer es una librría para "leer" lo que está dentro del DOM, identificar elementos-->
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <!--Libreria de Scrollama con la cual se logra el efecto de ScrollyTelling-->
+    <script src="scrollama-main\scrollama-main\build\scrollama.min.js"></script>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
