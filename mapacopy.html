@@ -9,6 +9,7 @@
     crossorigin=""/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles1copy.css">
     <style>
@@ -96,9 +97,13 @@
             <div id="map"></div>
             <!-- Contenedor de imágenes -->
             <div id="recuerdos-container" style="display: none;">
-              <button id="prev-button">anterior</button>
-              <img id="recuerdo-img" src="" alt="Recuerdo" style="width: 90%; height: 50%; object-fit: contain; margin-bottom: 20px  ;">
-              <button id="next-button">siguiente</button>
+              <button id="prev-button" class="image-button">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <img id="recuerdo-img" src="" alt="Recuerdo">
+              <button id="next-button" class="image-button">
+                <i class="fas fa-chevron-right"></i>
+              </button>
               <p id="recuerdo-title"></p>
             </div>
             <!-- Contenedor del visor PDF -->

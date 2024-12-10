@@ -31,8 +31,68 @@ let currentImageIndex = 0;
 
 //Lugares visitados por Tanco
 var locations = [
-    {"name":"Bogotá","atlas":{"latitude":4.71945109289652,"longitude":-74.0810506904781,"zoom":10,"scale":0.7},"recuerdos":[{"title":"Plaza Bolívar","url":"images/Biblioteca Nacional de Colombia/sujeto.png"},{"title":"Cerro Monserrate","url":"images/Biblioteca Nacional de Colombia/prueba.jpg"}],"escritos":{"title":"Escrito sobre Bogotá","pdf_url":"docs/Tanco Armero, Viaje a China-58-74.pdf"},"analisis":{"title":"Análisis histórico de Bogotá","content":"Bogotá fue un epicentro cultural importante durante el siglo XIX."}},{"name":"Calamar","atlas":{"latitude":10.2482502569287,"longitude":-74.9144487580497,"zoom":10,"scale":0.3},"recuerdos":[{"title":"Plaza Bolívar","url":"images/Biblioteca Nacional de Colombia/sujeto.png"},{"title":"Cerro Monserrate","url":"images/Biblioteca Nacional de Colombia/sujeto.png"}],"escritos":{"title":"Escrito sobre Bogotá","pdf_url":"docs/Tanco Armero, Viaje a China-58-74.pdf"},"analisis":{"title":"Análisis histórico de Bogotá","content":"Bogotá fue un epicentro cultural importante durante el siglo XIX."}},{"name":"Arroyondo","atlas":{"latitude":10.2524525271258,"longitude":-75.0179146439506,"zoom":10,"scale":0.3},"recuerdos":[{"title":"Plaza Bolívar","url":"images/Biblioteca Nacional de Colombia/sujeto.png"},{"title":"Cerro Monserrate","url":"images/Biblioteca Nacional de Colombia/sujeto.png"}],"escritos":{"title":"Escrito sobre Bogotá","pdf_url":"docs/Tanco Armero, Viaje a China-58-74.pdf"},"analisis":{"title":"Análisis histórico de Bogotá","content":"Bogotá fue un epicentro cultural importante durante el siglo XIX."}},{"name":"Arjona","atlas":{"latitude":10.2532304936834,"longitude":-75.3500553873603,"zoom":10,"scale":0.3},"recuerdos":[{"title":"Plaza Bolívar","url":"images/Biblioteca Nacional de Colombia/sujeto.png"},{"title":"Cerro Monserrate","url":"images/Biblioteca Nacional de Colombia/sujeto.png"}],"escritos":{"title":"Escrito sobre Bogotá","pdf_url":"docs/Tanco Armero, Viaje a China-58-74.pdf"},"analisis":{"title":"Análisis histórico de Bogotá","content":"Bogotá fue un epicentro cultural importante durante el siglo XIX."}},{"name":"Turbaco","atlas":{"latitude":10.3348345385657,"longitude":-75.4124550411077,"zoom":10,"scale":0.3},"recuerdos":[{"title":"Plaza Bolívar","url":"images/Biblioteca Nacional de Colombia/sujeto.png"},{"title":"Cerro Monserrate","url":"images/Biblioteca Nacional de Colombia/sujeto.png"}],"escritos":{"title":"Escrito sobre Bogotá","pdf_url":"docs/Tanco Armero, Viaje a China-58-74.pdf"},"analisis":{"title":"Análisis histórico de Bogotá","content":"Bogotá fue un epicentro cultural importante durante el siglo XIX."}},{"name":"Cartagena","atlas":{"latitude":10.3937722113251,"longitude":-75.4844984909218,"zoom":10,"scale":0.7},"recuerdos":[{"title":"Plaza Bolívar","url":"images/Biblioteca Nacional de Colombia/sujeto.png"},{"title":"Cerro Monserrate","url":"images/Biblioteca Nacional de Colombia/sujeto.png"}],"escritos":{"title":"Escrito sobre Bogotá","pdf_url":"docs/Tanco Armero, Viaje a China-58-74.pdf"},"analisis":{"title":"Análisis histórico de Bogotá","content":"Bogotá fue un epicentro cultural importante durante el siglo XIX."}}
+    {"name":"Bogotá","atlas":{"latitude":4.71945109289652,"longitude":-74.0810506904781,"zoom":5,"scale":0.7},"recuerdos":[{"title":"Plaza Bolívar","url":"https://drive.google.com/file/d/1YW7Pj_ijfgqtYgUdbrHzTBaMwVqujsfm/view?usp=drive_link"},{"title":"Cerro Monserrate","url":"images/Biblioteca Nacional de Colombia/prueba.jpg"}],"escritos":{"title":"Escrito sobre Bogotá","pdf_url":"docs/Tanco Armero, Viaje a China-58-74.pdf"},"analisis":{"title":"Análisis histórico de Bogotá","content":"Bogotá fue un epicentro cultural importante durante el siglo XIX."}},{"name":"Calamar","atlas":{"latitude":10.2482502569287,"longitude":-74.9144487580497,"zoom":10,"scale":0.3},"recuerdos":[{"title":"Plaza Bolívar","url":"images/Biblioteca Nacional de Colombia/sujeto.png"},{"title":"Cerro Monserrate","url":"images/Biblioteca Nacional de Colombia/sujeto.png"}],"escritos":{"title":"Escrito sobre Bogotá","pdf_url":"docs/Tanco Armero, Viaje a China-58-74.pdf"},"analisis":{"title":"Análisis histórico de Bogotá","content":"Bogotá fue un epicentro cultural importante durante el siglo XIX."}},{"name":"Arroyondo","atlas":{"latitude":10.2524525271258,"longitude":-75.0179146439506,"zoom":10,"scale":0.3},"recuerdos":[{"title":"Plaza Bolívar","url":"images/Biblioteca Nacional de Colombia/sujeto.png"},{"title":"Cerro Monserrate","url":"images/Biblioteca Nacional de Colombia/sujeto.png"}],"escritos":{"title":"Escrito sobre Bogotá","pdf_url":"docs/Tanco Armero, Viaje a China-58-74.pdf"},"analisis":{"title":"Análisis histórico de Bogotá","content":"Bogotá fue un epicentro cultural importante durante el siglo XIX."}},{"name":"Arjona","atlas":{"latitude":10.2532304936834,"longitude":-75.3500553873603,"zoom":10,"scale":0.3},"recuerdos":[{"title":"Plaza Bolívar","url":"images/Biblioteca Nacional de Colombia/sujeto.png"},{"title":"Cerro Monserrate","url":"images/Biblioteca Nacional de Colombia/sujeto.png"}],"escritos":{"title":"Escrito sobre Bogotá","pdf_url":"docs/Tanco Armero, Viaje a China-58-74.pdf"},"analisis":{"title":"Análisis histórico de Bogotá","content":"Bogotá fue un epicentro cultural importante durante el siglo XIX."}},{"name":"Turbaco","atlas":{"latitude":10.3348345385657,"longitude":-75.4124550411077,"zoom":10,"scale":0.3},"recuerdos":[{"title":"Plaza Bolívar","url":"images/Biblioteca Nacional de Colombia/sujeto.png"},{"title":"Cerro Monserrate","url":"images/Biblioteca Nacional de Colombia/sujeto.png"}],"escritos":{"title":"Escrito sobre Bogotá","pdf_url":"docs/Tanco Armero, Viaje a China-58-74.pdf"},"analisis":{"title":"Análisis histórico de Bogotá","content":"Bogotá fue un epicentro cultural importante durante el siglo XIX."}},{"name":"Cartagena","atlas":{"latitude":10.3937722113251,"longitude":-75.4844984909218,"zoom":10,"scale":0.7},"recuerdos":[{"title":"Plaza Bolívar","url":"images/Biblioteca Nacional de Colombia/sujeto.png"},{"title":"Cerro Monserrate","url":"images/Biblioteca Nacional de Colombia/sujeto.png"}],"escritos":{"title":"Escrito sobre Bogotá","pdf_url":"docs/Tanco Armero, Viaje a China-58-74.pdf"},"analisis":{"title":"Análisis histórico de Bogotá","content":"Bogotá fue un epicentro cultural importante durante el siglo XIX."}}
 ];
+
+document.querySelectorAll(".info-button").forEach(button =>{
+    button.addEventListener("click", () =>{
+        const type = button.dataset.type;
+
+        //Ocultar todos los contenedores
+        pdfViewer.style.display = "none";
+        analysisContainer.style.display = "none";
+        recuerdosContainer.style.display = "none";
+        document.getElementById("map").style.display = "none";
+        
+        if (type === "atlas") {
+            map.setView([currentLocation.atlas.latitude, currentLocation.atlas.longitude], currentLocation.atlas.zoom);
+            document.getElementById("map").style.display = "block";
+            console.log("ATLAS", currentLocation.name)
+        } else if (type === "images") {
+            mostrarRecuerdos();
+            console.log("RECUERDOS", currentLocation.name);
+        } else if (type === "journey"){
+            pdfViewer.src = `${currentLocation.escritos.pdf_url}`;
+            pdfViewer.style.display = "block";
+            pdfViewer.style.height = "100%"
+            console.log("PDF", currentLocation.name);
+        } else if (type === "analysis"){
+            document.getElementById("analysis-title").textContent = currentLocation.analisis.title;
+            document.getElementById("analysis-content").textContent = currentLocation.analisis.content;
+            analysisContainer.style.display = "block";
+            console.log("ANALISIS", )
+        }
+
+        document.querySelectorAll('.info-button').forEach(btn => {
+            btn.classList.remove('active');
+        });
+
+        button.classList.add('active');
+    });
+});
+
+function updateContent(){
+    if (currentLocation.recuerdos && currentLocation.recuerdos.length > 0) {
+        const recuerdo = currentLocation.recuerdos[0]; // Primera imagen por defecto
+        document.getElementById("recuerdo-img").src = recuerdo.url;
+        document.getElementById("recuerdo-title").textContent = recuerdo.title;
+    } else {
+        console.error("No hay recuerdos disponibles para esta ubicación.");
+        document.getElementById("recuerdo-img").src = ""; // Imagen vacía
+        document.getElementById("recuerdo-title").textContent = ""; // Título vacío
+    }
+
+    if (currentLocation.analisis) {
+        document.getElementById("analysis-title").textContent = currentLocation.analisis.title;
+        document.getElementById("analysis-content").textContent = currentLocation.analisis.content;
+    }
+
+    if (currentLocation.escritos) {
+        document.getElementById("pdf-viewer").src = currentLocation.escritos.pdf_url;
+    }
+
+    console.log("Contenido actualizado para:", currentLocation.name || "Ubicación sin nombre");
+}
 
 // Inicia Scrollama
 var scroller = scrollama();
@@ -72,23 +132,24 @@ function handleResize() {
 // Funcion para los eventos scroll
 function handleStepEnter(response) {
     console.log(response.index);
-    //El response es tomado por el método handleStepEnter y como resultado arroja un array con tres valores:
-    //Element: Referencia al elemento HTML que dispara el trigger | Index: El identificador del elemento específico
-    //Direction: Up/Down, contraintuitivo, Up es cuando el elemento baja, Down cuando sube.
+    /*El response es tomado por el método handleStepEnter y como resultado arroja un array con tres valores:
+    Element: Referencia al elemento HTML que dispara el trigger | Index: El identificador del elemento específico
+    Direction: Up/Down, contraintuitivo, Up es cuando el elemento baja, Down cuando sube.
 
-    //Al principio del script, en el selectAll la libreria D3 asigna a cada uno de los elementos STEP un index
-    //para este caso, se usa la libreria D3 para intervenir el CSS del elemento que se está seleccionando.
-    //El método classed integrará dentro del elemento que se está seleccionando un CSS. Puede configurarle unos
-    //parámetros CSS o modificar el listado de estilos que intervienen el elemento. Con esta función, se está
-    //evaluando cual de los STEP dentro del array de D3 es el que está activo comparandolo con el Index que se 
-    //trae con el RESPONSE anterior. Si es TRUE agrega el estilo IS-ACTIVE que se definió al principio de la página
-    //al STEP
+    Al principio del script, en el selectAll la libreria D3 asigna a cada uno de los elementos STEP un index
+    para este caso, se usa la libreria D3 para intervenir el CSS del elemento que se está seleccionando.
+    El método classed integrará dentro del elemento que se está seleccionando un CSS. Puede configurarle unos
+    parámetros CSS o modificar el listado de estilos que intervienen el elemento. Con esta función, se está
+    evaluando cual de los STEP dentro del array de D3 es el que está activo comparandolo con el Index que se 
+    trae con el RESPONSE anterior. Si es TRUE agrega el estilo IS-ACTIVE que se definió al principio de la página
+    al STEP*/
 
     step.classed("is-active", function(d, i) {
     return i === response.index;
     });
     currentLocation = locations[response.index];
 
+    updateContent();
 
     console.log("Nueva currentLocation:", currentLocation);
 
@@ -109,8 +170,6 @@ function handleStepEnter(response) {
     figure.select("#map-text").text(currentLocation.name);
     var newStepHeight = resizeStep(currentLocation.atlas.scale);
     d3.select(response.element).style("height", newStepHeight+"px");
-
-    //funcion acceda al texto
 };
 
 /*Con esta función se va a configurar el elemento que se quedará quieto mientras el usuario esté scrolleando*/
@@ -146,38 +205,6 @@ function init() {
 }
 // kick things off
 init();
-
-
-document.querySelectorAll(".info-button").forEach(button =>{
-    button.addEventListener("click", () =>{
-        const type = button.dataset.type;
-
-        //Ocultar todos los contenedores
-        pdfViewer.style.display = "none";
-        analysisContainer.style.display = "none";
-        recuerdosContainer.style.display = "none";
-        document.getElementById("map").style.display = "none";
-        
-        if (type === "atlas") {
-            map.setView([currentLocation.atlas.latitude, currentLocation.atlas.longitude], currentLocation.atlas.zoom);
-            document.getElementById("map").style.display = "block";
-            console.log("ATLAS", currentLocation.name)
-        } else if (type === "images") {
-            mostrarRecuerdos();
-            console.log("RECUERDOS", currentLocation.name);
-        } else if (type === "journey"){
-            pdfViewer.src = `${currentLocation.escritos.pdf_url}`;
-            pdfViewer.style.display = "block";
-            pdfViewer.style.height = "100%"
-            console.log("PDF", currentLocation.name);
-        } else if (type === "analysis"){
-            document.getElementById("analysis-title").textContent = currentLocation.analisis.title;
-            document.getElementById("analysis-content").textContent = currentLocation.analisis.content;
-            analysisContainer.style.display = "block";
-            console.log("ANALISIS", )
-        }
-    });
-});
 
 document.getElementById("prev-button").addEventListener("click", () => {
     navigateImages(-1);
