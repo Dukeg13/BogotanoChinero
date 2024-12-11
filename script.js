@@ -51,7 +51,7 @@ var locations = [
             "stable-url": "https://wellcomecollection.org/works/hpyccnjv/images?id=prsd8syw"
           },
           {
-            "title": "Rio Claro, Colombia. Coloured etching",
+            "title": "Rio Claro, Colombia.",
             "author": "Charles Empson ",
             "date": 1836,
             "repository": "WELLCOME COLLECTION ",
@@ -113,7 +113,7 @@ var locations = [
         ],
         "escritos": {
           "title": "Nueva Granada",
-          "pdf_url": "https://raw.githubusercontent.com/Dukeg13/BogotanoChinero/main/docs/Tanco%20Armero%20Viaje%20a%20China-58-74.pdf"
+          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero%20Viaje%20a%20China-58-74.pdf"
         },
         "analisis": {
           "title": "Nueva Granada: La partida hacia lo desconocido",
@@ -154,7 +154,7 @@ var locations = [
             "stable-url": "https://imagesonline.bl.uk/asset/13107"
           },
           {
-            "title": " View of St. Thomas, taken from Havensicht, Jan. 18",
+            "title": " View of St. Thomas",
             "author": "Stadler, Joseph C",
             "date": 1810,
             "repository": "BRITISH LIBRARY",
@@ -164,7 +164,7 @@ var locations = [
             "stable-url": "https://imagesonline.bl.uk/asset/16320"
           },
           {
-            "title": "Notes on the Present Condition of the Negroes in Jamaica.",
+            "title": "Present Condition of the Negroes in Jamaica.",
             "author": "De La Beche, Henry Thomas",
             "date": 1825,
             "repository": "BRITISH LIBRARY",
@@ -174,7 +174,7 @@ var locations = [
             "stable-url": "https://imagesonline.bl.uk/asset/147256"
           },
           {
-            "title": "Jamaica 1882 From A Dictionary, Practical, Theoretical, and Historical of Commerce and Commercial Navigation",
+            "title": "Jamaica 1882",
             "author": "Ramsay, John",
             "date": 1882,
             "repository": "Perry Castañeda Library Map Collection",
@@ -196,7 +196,7 @@ var locations = [
         ],
         "escritos": {
           "title": " El Caribe",
-          "pdf_url": "https://raw.githubusercontent.com/Dukeg13/BogotanoChinero/main/docs/Tanco%20Armero%20Viaje%20a%20China-74-78.pdf"
+          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero%20Viaje%20a%20China-74-78.pdf"
         },
         "analisis": {
           "title": "El Caribe: Mareas de mestizaje y encuentros",
@@ -217,43 +217,43 @@ var locations = [
         },
         "recuerdos": [
           {
-            "title": "Teatro de Tacon y parte del Museo de Isabell II ",
+            "title": "Teatro de Tacon",
             "author": "Anónimo",
             "date": 1800,
             "repository": "VICTORIA AND ALBERT MUSEUM",
             "credits": "From the V & A H Beard Print Collection",
             "altern-text": "Teatro de Tacon y parte del Museo de Isabell II ",
-            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/caribe/caribe5.png?raw=true",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/cuba/cuba0.jpg?raw=true",
             "stable-url": "https://collections.vam.ac.uk/item/O1141638/h-beard-print-collection-print-unknown/"
           },
           {
-            "title": "Teatro de Tacon (Habana)",
+            "title": "Teatro de Tacon",
             "author": "Federico Mialhe ",
             "date": 1800,
             "repository": "VICTORIA AND ALBERT MUSEUM ",
             "credits": "From the V & A H Beard Print Collection",
             "altern-text": "Teatro de Tacon (Habana)",
-            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/caribe/caribe5.png?raw=true",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/cuba/cuba1.jpg?raw=true",
             "stable-url": "https://collections.vam.ac.uk/item/O186857/h-beard-print-collection-print-mialhe-f/"
           },
           {
-            "title": "Los Ingenios. Coleccion de vistas de los principal",
+            "title": "Los Ingenios.",
             "author": "Cantero, Justo G",
             "date": 1857,
             "repository": "BRITISH LIBRARY ",
             "credits": "From the British Library archive",
             "altern-text": "Los Ingenios. Coleccion de vistas de los principal",
-            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/caribe/caribe5.png?raw=true",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/cuba/cuba2.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/15157"
           },
           {
-            "title": "Los Ingenios. Coleccion de vistas de los principal",
+            "title": "Los Ingenios.",
             "author": "Cantero, Justo G",
             "date": 1857,
             "repository": "BRITISH LIBRARY ",
             "credits": "From the British Library archive",
             "altern-text": "Los Ingenios. Coleccion de vistas de los principal",
-            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/caribe/caribe5.png?raw=true",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/cuba/cuba3.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/15153"
           },
           {
@@ -263,7 +263,7 @@ var locations = [
             "repository": "GETTY MUSEUM COLLECTION  ",
             "credits": "From the Getty Museum Collection",
             "altern-text": "Governors residence. Cuba",
-            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/caribe/caribe5.png?raw=true",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/cuba/cuba4.png?raw=true",
             "stable-url": "https://www.getty.edu/art/collection/object/106TM8"
           },
           {
@@ -273,13 +273,13 @@ var locations = [
             "repository": "GETTY MUSEUM COLLECTION  ",
             "credits": "From the Getty Museum Collection",
             "altern-text": "View in Cuba",
-            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/caribe/caribe5.png?raw=true",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/cuba/cuba5.png?raw=true",
             "stable-url": "https://www.getty.edu/art/collection/object/106TM6"
           }
         ],
         "escritos": {
           "title": "Cuba",
-          "pdf_url": "https://raw.githubusercontent.com/Dukeg13/BogotanoChinero/main/docs/Tanco%20Armero%20Viaje%20a%20China-78-117.pdf"
+          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero%20Viaje%20a%20China-78-117.pdf"
         },
         "analisis": {
           "title": "Cuba: La revolución del azúcar",
@@ -306,7 +306,7 @@ var locations = [
             "repository": "VICTORIA AND ALBERT MUSEUM",
             "credits": "From the V & A H Beard Print Collection",
             "altern-text": "Mount Tom, Massachusetts, USA",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/usa/usa0.jpg?raw=true",
             "stable-url": "https://collections.vam.ac.uk/item/O133690/mount-tom-massachusetts-usa-oil-painting-creswick-thomas/"
           },
           {
@@ -316,7 +316,7 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "Harper's Weekly",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/usa/usa1.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/46727"
           },
           {
@@ -326,7 +326,7 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "Harper's Weekly",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/usa/usa2.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/46784"
           },
           {
@@ -336,7 +336,7 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "Harpers Weekly",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/usa/usa3.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/17358"
           },
           {
@@ -346,17 +346,17 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "Harpers Weekly",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/usa/usa4.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/46740"
           },
           {
-            "title": "The New York State Soldiers' and Sailors' home. : Bath, New York.",
+            "title": "The New York State Soldiers' and Sailors' home.",
             "author": "Clarke, Wm. M. (Lithographer), printer.",
             "date": "1881",
             "repository": "CALISPHERE",
             "credits": "Jay T. Last Collection of Graphic Arts and Social History",
             "altern-text": "The New York State Soldiers' and Sailors' home. : Bath, New York.",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/usa/usa5.jpg?raw=true",
             "stable-url": "https://calisphere.org/item/dcdf738fdd9f814ad26392de7b2e9b0c/"
           },
           {
@@ -366,27 +366,27 @@ var locations = [
             "repository": "CALISPHERE",
             "credits": "Jay T. Last Collection of Graphic Arts and Social History",
             "altern-text": "Merchants' Exchange, New York",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/usa/usa6.jpeg?raw=true",
             "stable-url": "https://calisphere.org/item/5c12c1eda45a95a79b3dd6e32170afe8/"
           },
           {
-            "title": "East New York. 1859",
+            "title": "East New York.",
             "author": "Blümner, Frederick",
             "date": "1859",
             "repository": "CALISPHERE",
             "credits": "Jay T. Last Collection of Graphic Arts and Social History",
             "altern-text": "East New York. 1859",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/usa/usa7.jpeg?raw=true",
             "stable-url": "https://calisphere.org/item/6ebd3d3152e87bd1d339dbd01dd6c893/"
           },
           {
-            "title": "Printing-house Square. New York",
+            "title": "Printing-house Square.",
             "author": "Endicott & Co.",
             "date": "1861",
             "repository": "CALISPHERE",
             "credits": "Jay T. Last Collection of Graphic Arts and Social History",
             "altern-text": "Printing-house Square. New York",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/usa/usa8.jpeg?raw=true",
             "stable-url": "https://calisphere.org/item/693f1c8487119764d38bb831396997fa/"
           },
           {
@@ -396,7 +396,7 @@ var locations = [
             "repository": "CALISPHERE",
             "credits": "Jay T. Last Collection of Graphic Arts and Social History",
             "altern-text": "The city of New York",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/usa/usa9.jpeg?raw=true",
             "stable-url": "https://calisphere.org/item/a7b1b36a58be9851aeabeef06bbc3191/"
           },
           {
@@ -406,7 +406,7 @@ var locations = [
             "repository": "CALISPHERE",
             "credits": "Jay T. Last Collection of Graphic Arts and Social History",
             "altern-text": "Birds eye view of New York & Brooklyn",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/usa/usa10.jpeg?raw=true",
             "stable-url": "https://calisphere.org/item/e1a520df53c1f1dcba96ec0b977e49b1/"
           },
           {
@@ -416,13 +416,13 @@ var locations = [
             "repository": "Wikimedia Commons",
             "credits": "From Wikimedia Commons, the free media repository",
             "altern-text": "St. Nicholas-Hotel Broadway",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/usa/usa11.jpg?raw=true",
             "stable-url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/St_Nicholas_Hotel_1855.jpg?20151206142440"
           }
         ],
         "escritos": {
           "title": "Estados Unidos de América",
-          "pdf_url": "https://raw.githubusercontent.com/Dukeg13/BogotanoChinero/main/docs/Tanco%20Armero%20Viaje%20a%20China-117-147.pdf"
+          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero%20Viaje%20a%20China-117-147.pdf"
         },
         "analisis": {
           "title": "Estados Unidos: La modernidad en marcha",
@@ -443,13 +443,13 @@ var locations = [
         },
         "recuerdos": [
           {
-            "title": "Henry VIII Gate, Windsor Castle: Changing the Guard 1860",
+            "title": "Henry VIII Gate, Windsor Castle",
             "author": "Roger Fenton",
             "date": "1860",
             "repository": "ROYAL COLLECTION TRUST",
             "credits": "From the Royal Collection Trust",
             "altern-text": "Henry VIII Gate, Windsor Castle: Changing the Guard 1860",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/inglaterra/ing0.jpg?raw=true",
             "stable-url": "https://www.rct.uk/collection/search#/16/collection/2100040/henry-viii-gate-windsor-castle-changing-the-guard"
           },
           {
@@ -459,17 +459,17 @@ var locations = [
             "repository": "VICTORIA AND ALBERT MUSEUM",
             "credits": "From the V & A H Beard Print Collection",
             "altern-text": "Fleming House",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/inglaterra/ing1.jpg?raw=true",
             "stable-url": "https://collections.vam.ac.uk/item/O1068528/fleming-house-watercolour-louisa-paris/"
           },
           {
-            "title": "Metropolitan improvements; or, London in the ninet",
+            "title": "Metropolitan improvements",
             "author": "Shepherd, Thomas Hosmer; Wallis, W",
             "date": "1828",
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "Metropolitan improvements; or, London in the ninet",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/inglaterra/ing2.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/17250"
           },
           {
@@ -479,7 +479,7 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "The picturesque scenery of England",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/inglaterra/ing3.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/35364"
           },
           {
@@ -489,17 +489,17 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "Topographical Drawings of Surrey",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/inglaterra/ing4.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/4846"
           },
           {
-            "title": "England as seen by Foreigners in the days of Elizabeth and James the First",
+            "title": "England as seen by Foreigners",
             "author": "Hollar, Wenceslaus",
             "date": "1865",
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "England as seen by Foreigners in the days of Elizabeth and James the First",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/inglaterra/ing5.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/18464"
           },
           {
@@ -509,7 +509,7 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "The picturesque scenery of England.",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/inglaterra/ing6.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/35365"
           },
           {
@@ -519,13 +519,13 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "The picturesque scenery of England",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/inglaterra/ing7.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/35216"
           }
         ],
         "escritos": {
           "title": "Inglaterra",
-          "pdf_url": "https://raw.githubusercontent.com/Dukeg13/BogotanoChinero/main/docs/Tanco%20Armero%20Viaje%20a%20China-148-175.pdf"
+          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero%20Viaje%20a%20China-148-175.pdf"
         },
         "analisis": {
           "title": "Inglaterra: La Cuna de la Revolución Industrial",
@@ -551,7 +551,7 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "Histoire des Environs de Paris",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/francia/fra0.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/24544"
           },
           {
@@ -561,17 +561,17 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "Tableau de Paris",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/francia/fra1.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/32303"
           },
           {
-            "title": "Tableau de ParisMuseo",
+            "title": "Tableau de Paris Museé",
             "author": "Texier, Edmond",
             "date": "1852",
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
-            "altern-text": "Tableau de ParisMuseo",
-            "url": "",
+            "altern-text": "Tableau de Paris Museo",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/francia/fra1.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/32304"
           },
           {
@@ -581,7 +581,7 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "Notre-Dame de Paris.",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/francia/fra3.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/20424"
           },
           {
@@ -591,47 +591,47 @@ var locations = [
             "repository": "Wikimedia Commons",
             "credits": "From Wikimedia Commons, the free media repository",
             "altern-text": "Paris",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/francia/fra4.jpg?raw=true",
             "stable-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/G%C3%A9ographie_illustr%C3%A9e_de_la_France_et_de_ses_colonies..._Page_645_-_Paris_-_The_British_Library.jpg/1280px-G%C3%A9ographie_illustr%C3%A9e_de_la_France_et_de_ses_colonies..._Page_645_-_Paris_-_The_British_Library.jpg?20190506185453"
           },
           {
-            "title": "Voyage de Paris à la Mer ... Description historiqu",
+            "title": "Voyage de Paris à la Mer",
             "author": "Jules Gabriel Janin",
             "date": "1847",
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "Voyage de Paris à la Mer ... Description historiqu",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/francia/fra5.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/16991"
           },
           {
-            "title": "Picturesque Architecture in Paris, Ghent, Antwerp",
+            "title": "Picturesque Architecture in Paris.",
             "author": "Tomas Shotter Boys",
             "date": "1839",
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "Picturesque Architecture in Paris, Ghent, Antwerp",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/francia/fra6.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/12216"
           },
           {
-            "title": "L'Orléanais. Histoire des Ducs et du Duché d'Oriéa",
+            "title": "L'Orléanais",
             "author": "Pilophon de la Madelaine, V",
             "date": "1845",
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "L'Orléanais. Histoire des Ducs et du Duché d'Oriéa",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/francia/fra7.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/20646"
           },
           {
-            "title": "View of the boulevards at Paris, May-June 1843",
+            "title": "View of the boulevards at Paris",
             "author": "Willian Henry Fox Talbot",
             "date": "1843",
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "View of the boulevards at Paris, May-June 1843",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/francia/fra8.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/47461"
           },
           {
@@ -641,7 +641,7 @@ var locations = [
             "repository": "GALLICA",
             "credits": "From Gallica",
             "altern-text": "Paris",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/francia/fra9.JPEG?raw=true",
             "stable-url": "https://gallica.bnf.fr/ark:/12148/btv1b8445684g"
           },
           {
@@ -651,13 +651,13 @@ var locations = [
             "repository": "VICTORIA AND ALBERT MUSEUM",
             "credits": "From the V & A H Beard Print Collection",
             "altern-text": "Steps to the main facade, January 1867",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/francia/fra10.jpg?raw=true",
             "stable-url": "https://collections.vam.ac.uk/item/O112807/steps-to-the-main-facade-photograph-durandelle-louis-emile/"
           }
         ],
         "escritos": {
           "title": "Francia",
-          "pdf_url": "https://raw.githubusercontent.com/Dukeg13/BogotanoChinero/main/docs/Tanco%20Armero%20Viaje%20a%20China-175-251.pdf"
+          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero%20Viaje%20a%20China-175-251.pdf"
         },
         "analisis": {
           "title": "París: El Espejo de la Civilización",
@@ -684,83 +684,83 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "Utazási Album",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/egipto/egyp0.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/18557"
           },
           {
-            "title": "Utazási Album .",
+            "title": "Utazási Album",
             "author": "Desconocido",
             "date": "1857",
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
-            "altern-text": "Utazási Album .",
-            "url": "",
+            "altern-text": "Utazási Album",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/egipto/egyp1.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/18556"
           },
           {
-            "title": "The Holy Land, Syria, Idumea, Arabia, Egypt, & Nubia, from drawings made on the spot by D. Roberts With historical descriptions by the Revd George Croly",
+            "title": "Vies on the Nile. Ferry to Gizen",
             "author": "Roberts, David",
             "date": "1842",
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "The Holy Land, Syria, Idumea, Arabia, Egypt, & Nubia, from drawings made on the spot by D. Roberts With historical descriptions by the Revd George Croly",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/egipto/egyp2.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/18942"
           },
           {
-            "title": "The Holy Land, Syria, Idumea, Arabia, Egypt, & Nubia, from drawings made on the spot by D. Roberts With historical descriptions by the Revd George Croly",
+            "title": "The Entrance to the Citadel of Cairo",
             "author": "Roberts, David",
             "date": "1842",
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "The Holy Land, Syria, Idumea, Arabia, Egypt, & Nubia, from drawings made on the spot by D. Roberts With historical descriptions by the Revd George Croly",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/egipto/egyp3.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/18940"
           },
           {
-            "title": "The Holy Land, Syria, Idumea, Arabia, Egypt, & Nubia, from drawings made on the spot by D. Roberts With historical descriptions by the Rev:d George Croly",
+            "title": "Bazaar of the Silk Merchants. Cairo",
             "author": "Roberts, David; Brockedon; Croly",
             "date": "1842",
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "The Holy Land, Syria, Idumea, Arabia, Egypt, & Nubia, from drawings made on the spot by D. Roberts With historical descriptions by the Rev:d George Croly",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/egipto/egyp4.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/2648"
           },
           {
-            "title": "Views in Egypt, Palestine, and other parts of the Ottoman Empire",
+            "title": "First and Second Pyramid of Gizah. Ancient Memphis",
             "author": "Mayer, Luigi",
             "date": "1804",
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "Views in Egypt, Palestine, and other parts of the Ottoman Empire",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/egipto/egyp5.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/150507"
           },
           {
-            "title": "Pyramids of Sakhara, & Dashoor. Upper Egypt",
+            "title": "Pyramids of Sakhara, & Dashoor.",
             "author": "Sausmarez, George De",
             "date": "1855",
             "repository": "VICTORIA AND ALBERT MUSEUM",
             "credits": "From the V & A H Beard Print Collection",
             "altern-text": "Pyramids of Sakhara, & Dashoor. Upper Egypt",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/egipto/egyp6.jpg?raw=true",
             "stable-url": "https://collections.vam.ac.uk/item/O181875/pyramids-of-sakhara--dashoor-watercolour-sausmarez-george-de/"
           },
           {
-            "title": "Sioot - (the ancient Lycopolis.) - \"Upper Egypt.\" from the Stabl-Antar Hill",
+            "title": "Sioot - (the ancient Lycopolis.)",
             "author": "Sausmarez, George De",
             "date": "1855",
             "repository": "VICTORIA AND ALBERT MUSEUM",
             "credits": "From the V & A H Beard Print Collection",
             "altern-text": "Sioot - (the ancient Lycopolis.) - \"Upper Egypt.\" from the Stabl-Antar Hill",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/egipto/egyp7.jpg?raw=true",
             "stable-url": "https://collections.vam.ac.uk/item/O182077/sioot---the-ancient-watercolour-sausmarez-george-de/"
           }
         ],
         "escritos": {
           "title": "Egipto",
-          "pdf_url": "https://raw.githubusercontent.com/Dukeg13/BogotanoChinero/main/docs/Tanco%20Armero%20Viaje%20a%20China-268-319.pdf"
+          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero%20Viaje%20a%20China-268-319.pdf"
         },
         "analisis": {
           "title": "Egipto: La puerta al misterio del pasado",
@@ -787,7 +787,7 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "The Costume of China. A Pagoda or temple",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi0.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/15753"
           },
           {
@@ -797,7 +797,7 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "The Costume of China. South gate",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi1.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/15749"
           },
           {
@@ -807,7 +807,7 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "The Costume of China. A Chinese porter, or carrier",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi2.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/15695"
           },
           {
@@ -817,7 +817,7 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "The Costume of China. Chinese sailing vessels",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi3.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/18256"
           },
           {
@@ -827,7 +827,7 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "Chinese landscape. Landscape seen from the banks of a river",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi4.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/180094"
           },
           {
@@ -837,7 +837,7 @@ var locations = [
             "repository": "ROYAL COLLECTION TRUST",
             "credits": "From the Royal Collection Trust",
             "altern-text": "Views of China: The West Gate, Chin Kiang Foo Bridge over the Grand Canal",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi5.jpg?raw=true",
             "stable-url": "https://www.rct.uk/collection/search#/11/collection/925157/views-of-china-the-west-gate-chin-kiang-foo-bridge-over-the-grand-canal"
           },
           {
@@ -847,17 +847,17 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "China, historisch romantisch, malerisch.",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi6.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/163367"
           },
           {
-            "title": "China: in a series of views, displaying the scenery, architecture and social habits of that ancient empire.",
+            "title": "China: in a series of views.",
             "author": "Wright, George Newenham",
             "date": "1843",
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "China: in a series of views, displaying the scenery, architecture and social habits of that ancient empire.",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi7.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/18254"
           },
           {
@@ -867,17 +867,17 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "The Hastings Albums",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi8.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/24538"
           },
           {
-            "title": "Dutch Folly Fort on the Pearl River near Canton, c.1830 Houses on river bank in background; sampans, junks and other boats in the foreground.Shelfmark: Foster 52",
+            "title": "Dutch Folly Fort on the Pearl River near Canton",
             "author": "Anónimo",
             "date": "1830",
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "Dutch Folly Fort on the Pearl River near Canton",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi9.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/143717"
           },
           {
@@ -887,7 +887,7 @@ var locations = [
             "repository": "Royal Collection Trust",
             "credits": "From the Royal Collection Trust",
             "altern-text": "Vistas de China: Amoy desde las tumbas",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi10.jpg?raw=true",
             "stable-url": "https://www.rct.uk/collection/925165/views-of-china-amoy-from-the-tombs"
           },
           {
@@ -897,7 +897,7 @@ var locations = [
             "repository": "Royal Collection Trust",
             "credits": "From the Royal Collection Trust",
             "altern-text": "Vistas de China: Tonghai desde Long Battery, Chusan",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi11.jpg?raw=true",
             "stable-url": "https://www.rct.uk/collection/search#/34/collection/925149/views-of-china-tonghai-from-long-battery-chusan"
           },
           {
@@ -907,7 +907,7 @@ var locations = [
             "repository": "Royal Collection Trust",
             "credits": "From the Royal Collection Trust",
             "altern-text": "Vistas de China: Boceto en Chinghai cerca de Ningpo",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi12.jpg?raw=true",
             "stable-url": "https://www.rct.uk/collection/search#/37/collection/925155/views-of-china-sketch-at-chinghai-near-ningpo"
           },
           {
@@ -917,7 +917,7 @@ var locations = [
             "repository": "Royal Collection Trust",
             "credits": "From the Royal Collection Trust",
             "altern-text": "Vistas de China: El lugar de desembarco, Amoy",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi13.jpg?raw=true",
             "stable-url": "https://www.rct.uk/collection/search#/38/collection/925156/views-of-china-the-landing-place-amoy"
           },
           {
@@ -927,7 +927,7 @@ var locations = [
             "repository": "Royal Collection Trust",
             "credits": "From the Royal Collection Trust",
             "altern-text": "Vistas de China: La Torre de Porcelana, Ciudad de Nankín",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi14.jpg?raw=true",
             "stable-url": "https://www.rct.uk/collection/search#/44/collection/925158/the-porcelain-tower-city-of-nankin"
           },
           {
@@ -937,7 +937,7 @@ var locations = [
             "repository": "Royal Collection Trust",
             "credits": "From the Royal Collection Trust",
             "altern-text": "China: La Tumba Imperial en la Isla Dorada",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi15.jpg?raw=true",
             "stable-url": "https://www.rct.uk/collection/search#/50/collection/921498/china-the-imperial-tomb-on-the-golden-island"
           },
           {
@@ -947,7 +947,7 @@ var locations = [
             "repository": "Royal Collection Trust",
             "credits": "From the Royal Collection Trust",
             "altern-text": "Vistas de China: el continente desde Hong Kong",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi16.jpg?raw=true",
             "stable-url": "https://www.rct.uk/collection/search#/51/collection/925160/views-of-china-the-mainland-from-hong-kong"
           },
           {
@@ -957,13 +957,13 @@ var locations = [
             "repository": "Royal Collection Trust",
             "credits": "From the Royal Collection Trust",
             "altern-text": "Hsien-Feng, Emperador de China (1831-61)",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/china/chi17.jpg?raw=true",
             "stable-url": "https://www.rct.uk/collection/search#/13/collection/2915299/hsien-feng-emperor-of-china-1831-61"
           }
         ],
         "escritos": {
           "title": "China",
-          "pdf_url": "https://raw.githubusercontent.com/Dukeg13/BogotanoChinero/main/docs/Tanco%20Armero%20Viaje%20a%20China-344-550.pdf"
+          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero,%20Viaje%20a%20China-344-550.pdf"
         },
         "analisis": {
           "title": "Enfrentando el Otro en China",
@@ -974,10 +974,10 @@ var locations = [
         }
       },
       {
-        "name": "Egipto, May. 1855",
+        "name": "Palestina",
         "atlas": {
-          "latitude": 48.8613100901512,
-          "longitude": 2.33741807565212,
+          "latitude": 31.76733769,
+          "longitude": 35.21919146,
           "zoom": 5,
           "scale": 0.4
         },
@@ -989,7 +989,7 @@ var locations = [
             "repository": "GETTY MUSEUM COLLECTION",
             "credits": "From the Getty Museum Collection",
             "altern-text": "Gerusalemme (Palestina) Tempio dei Protestanti",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/palestina/pal0.jpg?raw=true",
             "stable-url": "https://www.getty.edu/art/collection/object/106XEY"
           },
           {
@@ -999,7 +999,7 @@ var locations = [
             "repository": "GETTY MUSEUM COLLECTION",
             "credits": "From the Getty Museum Collection",
             "altern-text": "Gerico (Palestina) Monte della Quarentena.",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/palestina/pal1.jpg?raw=true",
             "stable-url": "https://www.getty.edu/art/collection/object/106XF0"
           },
           {
@@ -1009,7 +1009,7 @@ var locations = [
             "repository": "Vänersborgs museum",
             "credits": "From the Vänersborgs museum",
             "altern-text": "Jerusalén. Betania",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/palestina/pal2.jpg?raw=true",
             "stable-url": "https://digitaltmuseum.se/011015260278/jerusalem-betania"
           },
           {
@@ -1019,7 +1019,7 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "Jerusalem in 1860: a series of photographic views",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/palestina/pal3.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/20777"
           },
           {
@@ -1029,7 +1029,7 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "Jerusalem in 1860: a series of photographic views,",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/palestina/pal4.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/20778"
           },
           {
@@ -1039,13 +1039,13 @@ var locations = [
             "repository": "BRITISH LIBRARY",
             "credits": "From the British Library archive",
             "altern-text": "The Holy Land, Syria, Idumea, Egypt, & Arabia",
-            "url": "",
+            "url": "https://github.com/Dukeg13/BogotanoChinero/blob/main/images/palestina/pal5.jpg?raw=true",
             "stable-url": "https://imagesonline.bl.uk/asset/17706"
           }
         ],
         "escritos": {
           "title": "Palestina",
-          "pdf_url": "https://raw.githubusercontent.com/Dukeg13/BogotanoChinero/main/docs/Tanco%20Armero%20Viaje%20a%20China-554-617.pdf"
+          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero,%20Viaje%20a%20China-554-617.pdf"
         },
         "analisis": {
           "title": "Palestina: La espiritualidad en el paisaje",
