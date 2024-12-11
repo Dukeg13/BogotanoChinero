@@ -143,11 +143,11 @@ figure p {
     justify-content: center;
     width: 800px;
     height: 600px;
-    overflow: hidden;
+    overflow: visble;
 }
 
 .recuerdo-img {
-    width: 100%;
+    width: auto;
     height: 100%;
     object-fit: contain;
 }
