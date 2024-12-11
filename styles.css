@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital@0;1&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -55,7 +58,8 @@ body, html{
 }
 
 .content h1{
-    font-size: 2.5em;
+    font-family: 'Cinzel', serif;
+    font-size: 3em;
     font-weight: bold;
     color: #e0e0e0;
     padding: 10px 30px;
@@ -64,10 +68,11 @@ body, html{
 }
 
 button{
-    font-size: 1em;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
     padding: 10px 20px;
     color: #000;
-    background-color: #fff;
+    background-color: linear-gradient(to bottom, #fdf1e1, #f4e0c6);
     border: none;
     cursor: pointer;
     border-radius: 5px;

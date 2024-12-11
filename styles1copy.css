@@ -38,6 +38,44 @@ h1{
     margin:0cm;
 }
 
+.intro-text,
+.outro-text{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text p,
+.outro-text p{
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+}
+
+.intro-text h2,
+.outro-text h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    color: #4a4a4a;
+    text-align: center;
+    margin: none;
+}
+
+.intro-text h3,
+.outro-text h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #4a4a4a;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: none;
+}
+
 figure {
     display: flex;
     flex-direction: column;
@@ -64,6 +102,7 @@ figure {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     padding: 10px;
     margin-bottom: 10px;
+    border-radius: 15px;
 }
 
 .info-button {
@@ -81,6 +120,7 @@ figure {
     text-transform: uppercase;
     padding: 15 px 0;
     margin: 0;
+    border-radius: 15px;
 }
 
 .info-button.active{
@@ -106,6 +146,7 @@ figure {
     width: 100%; 
     height: 85%;
     position: relative;
+    border-radius: 15px;
 }
 
 figure p {
@@ -144,6 +185,7 @@ figure p {
     width: 800px;
     height: 600px;
     overflow: visble;
+    border-radius: 15px;
 }
 
 .recuerdo-img {
@@ -165,6 +207,7 @@ figure p {
     z-index: 10;
     font-size: 20px;
     transition: transform 0.2s ease, background-color 0.3s ease;
+    border-radius: 15px;
 }
 
 #prev-button {
@@ -178,4 +221,53 @@ figure p {
 .image-button:hover {
     transform: scale(1.1);
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+#analysis-container{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 248, 235, 0.9);
+    border: 2px solid #d4a373;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Georgia', serif;
+}
+
+#analysis-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #854442;
+    margin-bottom: 15px;
+}
+
+#analysis-content{
+    font-size: 18px;
+    line-height: 1.8;
+    color: #4a4a4a;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .intro-text {
+        padding: 15px;
+    }
+    .intro-text p {
+        font-size: 16px;
+    }
+    .intro-text h1, .intro-text h2 {
+        font-size: 28px;
+    }
+
+    #analysis-container {
+        padding: 15px;
+    }
+    #analysis-title {
+        font-size: 20px;
+    }
+    #analysis-content {
+        font-size: 16px;
+    }
 }

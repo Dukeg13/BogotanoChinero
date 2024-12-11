@@ -113,7 +113,7 @@ var locations = [
         ],
         "escritos": {
           "title": "Nueva Granada",
-          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero%20Viaje%20a%20China-58-74.pdf"
+          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero,%20Viaje%20a%20China-58-74.pdf"
         },
         "analisis": {
           "title": "Nueva Granada: La partida hacia lo desconocido",
@@ -196,7 +196,7 @@ var locations = [
         ],
         "escritos": {
           "title": " El Caribe",
-          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero%20Viaje%20a%20China-74-78.pdf"
+          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero,%20Viaje%20a%20China-74-78.pdf"
         },
         "analisis": {
           "title": "El Caribe: Mareas de mestizaje y encuentros",
@@ -279,7 +279,7 @@ var locations = [
         ],
         "escritos": {
           "title": "Cuba",
-          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero%20Viaje%20a%20China-78-117.pdf"
+          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero,%20Viaje%20a%20China-78-117.pdf"
         },
         "analisis": {
           "title": "Cuba: La revolución del azúcar",
@@ -422,7 +422,7 @@ var locations = [
         ],
         "escritos": {
           "title": "Estados Unidos de América",
-          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero%20Viaje%20a%20China-117-147.pdf"
+          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero,%20Viaje%20a%20China-117-147.pdf"
         },
         "analisis": {
           "title": "Estados Unidos: La modernidad en marcha",
@@ -525,7 +525,7 @@ var locations = [
         ],
         "escritos": {
           "title": "Inglaterra",
-          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero%20Viaje%20a%20China-148-175.pdf"
+          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero,%20Viaje%20a%20China-148-175.pdf"
         },
         "analisis": {
           "title": "Inglaterra: La Cuna de la Revolución Industrial",
@@ -657,7 +657,7 @@ var locations = [
         ],
         "escritos": {
           "title": "Francia",
-          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero%20Viaje%20a%20China-175-251.pdf"
+          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero,%20Viaje%20a%20China-175-251.pdf"
         },
         "analisis": {
           "title": "París: El Espejo de la Civilización",
@@ -671,8 +671,8 @@ var locations = [
       {
         "name": "Egipto, May. 1855",
         "atlas": {
-          "latitude": 48.8613100901512,
-          "longitude": 2.33741807565212,
+          "latitude": 30.05813028,
+          "longitude": 31.22304358,
           "zoom": 5,
           "scale": 0.4
         },
@@ -760,7 +760,7 @@ var locations = [
         ],
         "escritos": {
           "title": "Egipto",
-          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero%20Viaje%20a%20China-268-319.pdf"
+          "pdf_url": "https://bogotanochinero.netlify.app/docs/Tanco%20Armero,%20Viaje%20a%20China-268-319.pdf"
         },
         "analisis": {
           "title": "Egipto: La puerta al misterio del pasado",
@@ -777,7 +777,7 @@ var locations = [
           "latitude": 28.122399808389037,
           "longitude": 114.53905802670702,
           "zoom": 4,
-          "scale": 0.9
+          "scale": 0.7
         },
         "recuerdos": [
           {
@@ -974,12 +974,12 @@ var locations = [
         }
       },
       {
-        "name": "Palestina",
+        "name": "Palestina, Ago. 1858",
         "atlas": {
           "latitude": 31.76733769,
           "longitude": 35.21919146,
           "zoom": 5,
-          "scale": 0.4
+          "scale": 0.7
         },
         "recuerdos": [
           {
