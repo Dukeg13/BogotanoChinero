@@ -1259,6 +1259,8 @@ function navigateImages(direction) {
     const recuerdo = currentLocation.recuerdos[currentImageIndex];
     recuerdoImg.src = recuerdo.url;
     recuerdoTitle.textContent = recuerdo.title;
+    document.getElementById("recuerdo-credits").textContent = `Créditos: ${recuerdo.credits || "Sin información disponible"}`;
+
 }
 
 function mostrarRecuerdos(){
